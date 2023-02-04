@@ -1,0 +1,42 @@
+body {
+    background-color: blue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sor div {
+    width: 50px;
+    height: 50px;
+    background-color: lightblue;
+    border: 1px solid black;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    font-size: 45px;
+
+}
+.sor {
+    clear: both;
+    text-align: center;
+}
+.headline {
+    color: lightsalmon;
+    text-align: center;
+}
+.over {
+    color: antiquewhite;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+#hidden {
+    display: none;
+}
+#visible {
+    display: block;
+    margin-top: 50px;
+}
+
